@@ -36,6 +36,30 @@ namespace bakery_web_page_CSI340.Controllers
             return View();
         }
 
+        public IActionResult Locations()
+        {
+            return View();
+        }
+
+        public IActionResult OverviewMenu()
+        {
+            return View();
+        }
+        public IActionResult checkout()
+        {
+            return View();
+        }
+
+        public IActionResult Ordering()
+        {
+            return View();
+        }
+
+        public IActionResult SubMenu()
+        {
+            return View();
+        }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

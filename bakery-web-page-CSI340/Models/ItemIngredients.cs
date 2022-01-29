@@ -2,11 +2,11 @@
 {
     public class ItemIngredients
     {
-        public int Id { get; set; }
+        public int ConnectionID { get; set; }
 
-        public int MenuItemID { get; set; }
+        public int MenuItemId { get; set; }
 
-        public int IngredientIDs { get; set; }
+        public int IngridientID { get; set; }
 
         public MenuItems MenuItems { get; set; }
 

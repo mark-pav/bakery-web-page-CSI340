@@ -2,10 +2,9 @@
 {
     public class Ingredients
     {
-        public int IngredientsId { get; set; }
-        public string RecipieId { get; set; }
-        public string IngredientsName { get; set; }
-        public string IngredientsType { get; set; }
-        public int IngredientsQuantity { get; set; }
+        public int IngridientID { get; set; }
+        public string IngredientName { get; set; }
+        public string IngredientType { get; set; }
+        public bool IsAllergen { get; set; }
     }
 }
